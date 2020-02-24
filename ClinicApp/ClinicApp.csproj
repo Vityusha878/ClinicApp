@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.3.0\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18C66849-85AF-4A13-8968-51C02D124503}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ClinicApp</RootNamespace>
+    <AssemblyName>ClinicApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.3.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.3.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.112.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.112.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.112.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.112.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.112.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.112.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authorization.Designer.cs">
+      <DependentUpon>Authorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChoiceForm\Choice_Doctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoiceForm\Choice_Doctor.Designer.cs">
+      <DependentUpon>Choice_Doctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChoiceForm\Choice_Drug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoiceForm\Choice_Drug.Designer.cs">
+      <DependentUpon>Choice_Drug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChoiceForm\Choice_Nurse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoiceForm\Choice_Nurse.Designer.cs">
+      <DependentUpon>Choice_Nurse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChoiceForm\Choice_Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoiceForm\Choice_Patient.Designer.cs">
+      <DependentUpon>Choice_Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoForm\Info_DispensingDrug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoForm\Info_DispensingDrug.Designer.cs">
+      <DependentUpon>Info_DispensingDrug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoForm\Info_Drug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoForm\Info_Drug.Designer.cs">
+      <DependentUpon>Info_Drug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoForm\Info_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoForm\Info_Employee.Designer.cs">
+      <DependentUpon>Info_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoForm\Info_Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoForm\Info_Patient.Designer.cs">
+      <DependentUpon>Info_Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardForm\Card_Dispensing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardForm\Card_Dispensing.Designer.cs">
+      <DependentUpon>Card_Dispensing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardForm\Card_Drug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardForm\Card_Drug.Designer.cs">
+      <DependentUpon>Card_Drug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoForm\Info_Prescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoForm\Info_Prescription.Designer.cs">
+      <DependentUpon>Info_Prescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoForm\Info_TreatmentPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoForm\Info_TreatmentPlan.Designer.cs">
+      <DependentUpon>Info_TreatmentPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Context.cs" />
+    <Compile Include="Model\DispensingDrug.cs" />
+    <Compile Include="Model\Drug.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardForm\Card_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardForm\Card_Employee.Designer.cs">
+      <DependentUpon>Card_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardForm\Card_Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardForm\Card_Patient.Designer.cs">
+      <DependentUpon>Card_Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardForm\Card_Prescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardForm\Card_Prescription.Designer.cs">
+      <DependentUpon>Card_Prescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Operations\OperationsOfDispensingDrugs.cs" />
+    <Compile Include="Model\Operations\OperationsOfDrugs.cs" />
+    <Compile Include="Model\Operations\OperationsOfPersons.cs" />
+    <Compile Include="Model\Operations\OperationsOfPrescriptionsOfDrugs.cs" />
+    <Compile Include="Model\Operations\OperationsOfTreatmentPlans.cs" />
+    <Compile Include="Model\Person.cs" />
+    <Compile Include="Model\PrescriptionOfDrug.cs" />
+    <Compile Include="Model\Singleton.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CardForm\Card_TreatmentPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardForm\Card_TreatmentPlan.Designer.cs">
+      <DependentUpon>Card_TreatmentPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TreatmentPlan.cs" />
+    <EmbeddedResource Include="Authorization.resx">
+      <DependentUpon>Authorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardForm\Card_Dispensing.resx">
+      <DependentUpon>Card_Dispensing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardForm\Card_Drug.resx">
+      <DependentUpon>Card_Drug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardForm\Card_Employee.resx">
+      <DependentUpon>Card_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoiceForm\Choice_Doctor.resx">
+      <DependentUpon>Choice_Doctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoiceForm\Choice_Drug.resx">
+      <DependentUpon>Choice_Drug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoiceForm\Choice_Nurse.resx">
+      <DependentUpon>Choice_Nurse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoiceForm\Choice_Patient.resx">
+      <DependentUpon>Choice_Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoForm\Info_DispensingDrug.resx">
+      <DependentUpon>Info_DispensingDrug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoForm\Info_Drug.resx">
+      <DependentUpon>Info_Drug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoForm\Info_Employee.resx">
+      <DependentUpon>Info_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoForm\Info_Patient.resx">
+      <DependentUpon>Info_Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoForm\Info_Prescription.resx">
+      <DependentUpon>Info_Prescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoForm\Info_TreatmentPlan.resx">
+      <DependentUpon>Info_TreatmentPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardForm\Card_Patient.resx">
+      <DependentUpon>Card_Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardForm\Card_Prescription.resx">
+      <DependentUpon>Card_Prescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CardForm\Card_TreatmentPlan.resx">
+      <DependentUpon>Card_TreatmentPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Описание программы.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.112.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.112.0\build\net46\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.112.0\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.112.0\build\net46\System.Data.SQLite.Core.targets'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.3.0\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.3.0\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.3.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" />
+</Project>

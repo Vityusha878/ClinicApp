@@ -1,0 +1,107 @@
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.csprojAssemblyReference.cache
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Properties.Resources.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.csproj.GenerateResource.cache
+I:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\ClinicApp.exe.config
+I:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\ClinicApp.exe
+I:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\ClinicApp.pdb
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.exe
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.pdb
+D:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\ClinicApp.exe.config
+D:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\ClinicApp.exe
+D:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\ClinicApp.pdb
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.csprojAssemblyReference.cache
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Properties.Resources.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.csproj.GenerateResource.cache
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.exe
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.pdb
+I:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\EntityFramework.dll
+I:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\EntityFramework.SqlServer.dll
+I:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.dll
+I:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.EF6.dll
+I:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\EntityFramework.xml
+I:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\EntityFramework.SqlServer.xml
+I:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.xml
+I:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.dll.config
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.csproj.CopyComplete
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.MainFormClinic.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Dispensing.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Employee.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Patient.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Prescription.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_TreatmentPlan.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Drug.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\EntityFramework.dll
+D:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.dll
+D:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\EntityFramework.xml
+D:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.xml
+D:\Программирование\2 курс\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.dll.config
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Dispensing.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Drug.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Employee.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.MainFormClinic.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Patient.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Prescription.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_TreatmentPlan.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.csproj.CopyComplete
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_Employee.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_Patient.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_Drug.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.ChoiceForm.Choice_Doctor.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.ChoiceForm.Choice_Patient.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.ChoiceForm.Choice_Drug.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_DispensingDrug.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_Prescription.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_TreatmentPlan.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.ChoiceForm.Choice_Nurse.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.ChoiceForm.Choice_Doctor.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.ChoiceForm.Choice_Drug.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.ChoiceForm.Choice_Nurse.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.ChoiceForm.Choice_Patient.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_DispensingDrug.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_Drug.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_Employee.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_Patient.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_Prescription.resources
+D:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_TreatmentPlan.resources
+I:\Программирование\2 курс\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Authorization.resources
+D:\ClinicApp\ClinicApp\bin\Debug\ClinicApp.exe.config
+D:\ClinicApp\ClinicApp\bin\Debug\ClinicApp.exe
+D:\ClinicApp\ClinicApp\bin\Debug\ClinicApp.pdb
+D:\ClinicApp\ClinicApp\bin\Debug\EntityFramework.dll
+D:\ClinicApp\ClinicApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.dll
+D:\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.EF6.dll
+D:\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.Linq.dll
+D:\ClinicApp\ClinicApp\bin\Debug\EntityFramework.xml
+D:\ClinicApp\ClinicApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.xml
+D:\ClinicApp\ClinicApp\bin\Debug\System.Data.SQLite.dll.config
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.csprojAssemblyReference.cache
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Authorization.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Dispensing.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Drug.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Employee.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.ChoiceForm.Choice_Doctor.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.ChoiceForm.Choice_Drug.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.ChoiceForm.Choice_Nurse.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.ChoiceForm.Choice_Patient.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_DispensingDrug.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_Drug.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_Employee.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_Patient.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_Prescription.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.InfoForm.Info_TreatmentPlan.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.MainFormClinic.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Patient.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_Prescription.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Properties.Resources.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.Card_TreatmentPlan.resources
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.csproj.GenerateResource.cache
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.csproj.CopyComplete
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.exe
+D:\ClinicApp\ClinicApp\obj\Debug\ClinicApp.pdb
